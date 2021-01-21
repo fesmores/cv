@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6, p {
 .home-photo .hp-inner {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("images/fesmores-original.jpg");
+  background-image: url("../images/fesmores-original.jpg");
   background-position: top center;
   position: absolute;
   top: -18px;
