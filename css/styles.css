@@ -5,7 +5,7 @@ body {
 }
 
 .container-fluid {
-padding: 0;
+  padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -111,7 +111,6 @@ h1, h2, h3, h4, h5, h6, p {
   bottom: -18px;
   left: -18px;
   right: -18px;
-
 }
 
 .home-text {
@@ -169,7 +168,6 @@ h1, h2, h3, h4, h5, h6, p {
   border-top: 2px solid #f2f2f2;
   border-bottom: 2px solid #f2f2f2;
   padding: 4% 7% 4% 9%;
-  text-align: left;
   background-color: #252525;
   border-top-color: #333333;
   border-bottom-color: #333333;
@@ -197,19 +195,33 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 
+.list-group-item {
+  background-color: transparent;
+  border-radius: 0;
+  padding: 10px 10px 10px 0;
+  color: #fff;
+}
+
+.list-group-item .icon {
+  padding-top: 5px;
+}
+
+.list-group-item-text {
+  padding-left: 5%;
+}
+
 @media only screen and (max-width: 991px) {
-.home-photo {
-  margin: 50px auto;
-  width: 60%;
-  padding-bottom: calc(60% - 36px);
-}
+  .home-photo {
+    margin: 50px auto;
+    width: 60%;
+    padding-bottom: calc(60% - 36px);
+  }
 
-.home-text {
-  text-align: center;
-}
+  .home-text {
+    text-align: center;
+  }
 
-.feature-box {
-  padding: 5% 15%;
-}
-
+  .feature-box {
+    padding: 5% 15%;
+  }
 }
