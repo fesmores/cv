@@ -1,7 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #0d1a26;
-  /* margin: auto; */
-  /* padding: 0; */
+  /* margin: auto;
+  padding: 0; */
   overflow-x: hidden;
   padding-right: 0px;
 }
@@ -17,6 +21,10 @@ h1, h2, h3, h4, h5, h6, p {
 
 .header {
   padding: 3% 10% 2%;
+}
+
+.navbar-toggler-icon {
+  color:#fdfdfd;
 }
 
 /* HEADER SECTION */
@@ -155,7 +163,7 @@ h1, h2, h3, h4, h5, h6, p {
   margin-top: 5%;
 }
 
-.page-title .title-string {
+.page-title, .title-string {
   letter-spacing: 2px;
 }
 
@@ -213,7 +221,304 @@ h1, h2, h3, h4, h5, h6, p {
   padding-left: 5%;
 }
 
+/* Skills Section */
+.services {
+  margin-top: 5%;
+}
+
+.page-title .title-string {
+  letter-spacing: 2px;
+}
+
+.section-title h1 {
+  display: inline-block;
+  position: relative;
+}
+
+.study-inst {
+  margin-top: 10px;
+}
+
+.page-title {
+  display: block;
+  position: relative;
+  background-color: #fdfdfd;
+  border-top: 2px solid #f2f2f2;
+  border-bottom: 2px solid #f2f2f2;
+  padding: 4% 7% 4% 6%;
+  text-align: left;
+  background-color: #252525;
+  border-top-color: #333333;
+  border-bottom-color: #333333;
+}
+
+.page-title h1 {
+  font-size: 44px;
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+
+.feature-box {
+  padding: 3% 7% 4% 7%;
+}
+
+.feature-box h3 {
+  font-family: "Poppins", Helvetica, sans-serif;
+}
+
+.icon {
+  color: #007ced;
+}
+
+.icon:hover {
+  color: #fdfdfd;
+  transition: 0.5s;
+}
+
+/* Resume Section */
+.block-title {
+  padding-top: 3%;
+}
+
+.block-title h2 {
+  display: inline-block;
+  position: relative;
+  font-size: 2rem;
+  margin: auto;
+}
+
+.item-period {
+  border: solid 2px #007ced;
+  border-radius: 30px;
+  box-shadow: 0px 10px 10px -8px rgba(0, 0, 0, .78);
+  font-size: 0.9rem;
+  margin: auto;
+  text-align: center;
+  padding: 12px;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 23px;
+  position: relative;
+  letter-spacing: 2px;
+}
+
+
+.study-box {
+  padding: 3% 10% 4% 7%;
+}
+
+.study-box-digital {
+  padding: 3% 5% 4% 7%;
+}
+
+.before-after {
+  position: relative;
+}
+
+.before-after::after {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 1px;
+  width: 100%;
+  /* left: -10px; */
+  bottom: -15px;
+  background-color: #333333;
+}
+
+.working-experience {
+  padding: 3% 7% 4% 7%;
+}
+
+.wee{
+  padding: 3% 3% 4% 3%;
+}
+
+.degree-title {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #666;
+}
+
+.resume-location-h3 {
+  color: #007ced;
+  display: inline-block;
+  font-size: 1rem;
+  margin: auto;
+  padding-left: 10px;
+  position: relative;
+}
+
+.block-title {
+  /* padding: 5% 15% 5% 15%; */
+  position: relative;
+}
+
+.block-title h2::before {
+  content: '';
+  display: block;
+  position: absolute;
+  background-color: #666666;
+  width: 100%;
+  height: 2px;
+  bottom: -10px;
+}
+
+.block-title h2::after {
+  content: '';
+  display: block;
+  position: absolute;
+  background-color: #007ced;
+  /* width: 100%; */
+  height: 2px;
+  bottom: -10px;
+}
+
+.progress-bar-text {
+  /* border: solid 2px #fff; */
+  color: white;
+  margin-top: 2%;
+  padding: 3% 13% 3% 13%;
+}
+
+.percentage-span {
+  padding-bottom: 2%;
+}
+
+.meter {
+  height: 10px;
+  position: relative;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border: solid 1px #666;
+  border-radius: 25px;
+  padding: 2px;
+}
+
+.meter > span {
+  display: block;
+  height: 100%;
+  border-radius: 5px;
+  background-color: #007ced;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Skills Percentages */
+
+.skills, .administration-skills, .languages {
+  padding: 5% 0 5% 0;
+}
+
+.percentage-text {
+  display: inline-block;
+  text-align: right;
+}
+
+.meter .percentage-20 {
+  width: 20%;
+}
+
+.meter .percentage-30 {
+  width: 30%;
+}
+
+.meter .percentage-40 {
+  width: 40%;
+}
+
+.meter .percentage-50 {
+  width: 50%;
+}
+
+.meter .percentage-55 {
+  width: 55%;
+}
+
+.meter .percentage-60 {
+  width: 60%;
+}
+
+.meter .percentage-75 {
+  width: 75%;
+}
+
+.meter .percentage-80 {
+  width: 80%;
+}
+
+.meter .percentage-85 {
+  width: 85%;
+}
+/* End Skills Percentages */
+
+/* Languages Percentages */
+
+.meter .percentage-100 {
+  width: 100%;
+}
+
+.meter .percentage-70 {
+  width: 70%;
+}
+
+.meter .percentage-75 {
+  width: 75%;
+}
+
+.meter .percentage-50 {
+  width: 50%;
+}
+
+.meter .percentage-40 {
+  width: 40%;
+}
+
+/* Contact Section */
+
+.contact-details {
+  padding: 5% 25% 5% 25%;
+}
+
+.icon-text {
+  font-family: 'Poppins';
+  padding-top: 10px;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #fdfdfd;
+  border-top: 2px solid #f2f2f2;
+  border-bottom: 2px solid #f2f2f2;
+  padding: 4% 7% 4% 6%;
+  background-color: #252525;
+  border-top-color: #333333;
+  border-bottom-color: #333333;
+}
+
+ .social-icon {
+  padding-right: 5px;
+}
+
+.social-container {
+  padding: 5%;
+}
+
+
+.table-header-string {
+  font-size: 1.5rem;
+}
+
 @media only screen and (max-width: 991px) {
+
+  .section-title {
+    padding-left: 7%;
+  }
+
   .home-photo {
     margin: 50px auto;
     width: 60%;
@@ -224,7 +529,7 @@ h1, h2, h3, h4, h5, h6, p {
     text-align: center;
   }
 
-  .feature-box {
+  .feature-box, .study-box, .study-box-digital, .working-experience {
     padding: 5% 15%;
   }
 }
