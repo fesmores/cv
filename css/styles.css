@@ -474,9 +474,40 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 /* Contact Section */
-.contact-details {
-  padding: 5% 25% 5% 25%;
+
+.no-bullets {
+  list-style-type: none;
 }
+
+.contact-details {
+  /* padding: 5% 0% 5% 25%; */
+  margin: auto;
+  width: 50%;
+  padding: 30px;
+}
+
+.contact-details a {
+  text-decoration: none;
+  color: #f2f2f2;
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.contact-details li a:hover {
+  text-decoration: none;
+  color: #007ced;
+  transition: 0.5s;
+}
+
+.contact-details li .social-icon:hover {
+  color: #f2f2f2;
+  transition: 0.5s;
+}
+
+.contact-details span {
+  padding-left: 10px;
+}
+
 
 .icon-text {
   font-family: 'Poppins';
@@ -507,6 +538,10 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 @media only screen and (max-width: 991px) {
+
+  html {
+    scroll-behavior: smooth;
+  }
 
   body {
     overflow-x: hidden;
@@ -560,5 +595,11 @@ h1, h2, h3, h4, h5, h6, p {
 
   .feature-box, .study-box, .study-box-digital, .working-experience {
     padding: 5% 15%;
+  }
+
+  .contact-details {
+    margin: auto;
+    padding: 4% 7% 4% 6%;
+    width: 100%;
   }
 }
