@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .navbar-toggler-icon {
-  color:#fdfdfd;
+  color: #fdfdfd;
 }
 
 /* HEADER SECTION */
@@ -205,7 +205,6 @@ h1, h2, h3, h4, h5, h6, p {
   padding-bottom: 3%;
 }
 
-
 .list-group-item {
   background-color: transparent;
   border-radius: 0;
@@ -305,7 +304,6 @@ h1, h2, h3, h4, h5, h6, p {
   letter-spacing: 2px;
 }
 
-
 .study-box {
   padding: 3% 10% 4% 7%;
 }
@@ -333,7 +331,7 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 3% 7% 4% 7%;
 }
 
-.wee{
+.wee {
   padding: 3% 3% 4% 3%;
 }
 
@@ -398,7 +396,7 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 2px;
 }
 
-.meter > span {
+.meter>span {
   display: block;
   height: 100%;
   border-radius: 5px;
@@ -408,7 +406,6 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 /* Skills Percentages */
-
 .skills, .administration-skills, .languages {
   padding: 5% 0 5% 0;
 }
@@ -453,10 +450,9 @@ h1, h2, h3, h4, h5, h6, p {
 .meter .percentage-85 {
   width: 85%;
 }
+
 /* End Skills Percentages */
-
 /* Languages Percentages */
-
 .meter .percentage-100 {
   width: 100%;
 }
@@ -478,7 +474,6 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 /* Contact Section */
-
 .contact-details {
   padding: 5% 25% 5% 25%;
 }
@@ -489,7 +484,6 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 /* Footer */
-
 .footer {
   background-color: #fdfdfd;
   border-top: 2px solid #f2f2f2;
@@ -500,7 +494,7 @@ h1, h2, h3, h4, h5, h6, p {
   border-bottom-color: #333333;
 }
 
- .social-icon {
+.social-icon {
   padding-right: 5px;
 }
 
@@ -508,12 +502,41 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 5%;
 }
 
-
 .table-header-string {
   font-size: 1.5rem;
 }
 
 @media only screen and (max-width: 991px) {
+  .header {
+    padding: 0;
+  }
+
+  .navbar {
+    padding: 5% 0 5% 0;
+  }
+
+  .nav-item {
+    padding: 0;
+  }
+
+  .nav-link {
+    background-color: #252525;
+    color: #fdfdfd;
+    font-weight: 500;
+    border-bottom: 1px solid #f2f2f2;
+    border-bottom-color: #333333;
+  }
+
+  .navbar-collapse {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border-top: 2px solid #f2f2f2;
+    /* border-bottom: 2px solid #f2f2f2; */
+    border-top-color: #333333;
+    /* border-bottom-color: #333333; */
+  }
 
   .section-title {
     padding-left: 7%;
